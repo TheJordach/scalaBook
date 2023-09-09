@@ -30,10 +30,8 @@ class ReadFiles {
    *   4.count the words which are duplicated and keep track the count
    *  }
    *
-   * @param filePath : String
-   * @output Map[String,Int]
-   *
-   */
+   * @param filePath : String : input
+   * */
 
   def read(filePath: String): mutable.Map[String,Int] = {
 
